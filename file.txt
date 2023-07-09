@@ -1,0 +1,12 @@
+id                              intero              mediumint                   PRIMARY KEY  (AUTO_INCREMENT UNIQUE)
+brand                           string              varchar(30)                 NOT_NULL
+model                           string              varchar(40)                 NOT_NULL
+fuel                            string              varchar(20)                 NOT_NULL
+color                           string              varchar(20)                 NULL
+year                            intero              year                        NOT_NULL
+doors                           intero              tinyint                     NOT_NULL
+is_new                          boolean             default(0)                  NOT_NULL
+CC                              intero              smallint                    NULL
+kilometres                      float               float(7,2)                  NOT_NULL
+horsepower                      intero              smallint                    NULL
+seats                           intero              tinyint                     NULL
